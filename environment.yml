@@ -1,0 +1,29 @@
+name: darija-translation
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+
+dependencies:
+  - python=3.11
+  - pip
+  - numpy
+  - pandas
+
+  # PyTorch (CPU / Apple MPS)
+  - pytorch
+  - torchvision
+  - torchaudio
+
+  # Jupyter
+  - jupyter
+  - ipykernel
+  - notebook
+
+  # pip packages (core only)
+  - pip:
+      - transformers>=4.30.0
+      - tokenizers>=0.13.3
+      - sentencepiece
+      - safetensors
+      - gdown

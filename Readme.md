@@ -2,7 +2,7 @@
 
 ## 📋 Overview
 
-This project implements a complete pipeline for answering questions in **Darija (Moroccan Arabic)**:
+This project implements a complete pipeline for answering questions in **Darija (Algerian Arabic)**:
 1. User asks a question in **Darija**
 2. Translation model converts it to **MSA (Modern Standard Arabic)**
 3. QA model (fine-tuned Qwen 2.5-3B with LoRA) generates an **answer**
